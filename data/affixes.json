@@ -1,0 +1,122 @@
+{
+  "prefixes": {
+    "damage": [
+      { "id": "sharp", "name": "Sharp", "stat": "damage", "range": [3, 8], "tier": "T5", "ilvlReq": 1, "weight": 100 },
+      { "id": "deadly", "name": "Deadly", "stat": "damage", "range": [8, 15], "tier": "T4", "ilvlReq": 15, "weight": 80 },
+      { "id": "vicious", "name": "Vicious", "stat": "damage", "range": [15, 25], "tier": "T3", "ilvlReq": 30, "weight": 60 },
+      { "id": "brutal", "name": "Brutal", "stat": "damage", "range": [25, 40], "tier": "T2", "ilvlReq": 50, "weight": 40 },
+      { "id": "annihilating", "name": "Annihilating", "stat": "damage", "range": [40, 60], "tier": "T1", "ilvlReq": 70, "weight": 20 },
+      { "id": "godslaying", "name": "Godslaying", "stat": "damage", "range": [60, 100], "tier": "T0", "ilvlReq": 90, "weight": 5 }
+    ],
+    "fireRate": [
+      { "id": "quick", "name": "Quick", "stat": "fireRate", "range": [5, 10], "tier": "T5", "ilvlReq": 1, "weight": 100 },
+      { "id": "rapid", "name": "Rapid", "stat": "fireRate", "range": [10, 18], "tier": "T4", "ilvlReq": 15, "weight": 80 },
+      { "id": "furious", "name": "Furious", "stat": "fireRate", "range": [18, 28], "tier": "T3", "ilvlReq": 30, "weight": 60 },
+      { "id": "frenzied", "name": "Frenzied", "stat": "fireRate", "range": [28, 40], "tier": "T2", "ilvlReq": 50, "weight": 40 },
+      { "id": "tempest", "name": "Tempest", "stat": "fireRate", "range": [40, 55], "tier": "T1", "ilvlReq": 70, "weight": 20 },
+      { "id": "hypersonic", "name": "Hypersonic", "stat": "fireRate", "range": [55, 75], "tier": "T0", "ilvlReq": 90, "weight": 5 }
+    ],
+    "crit": [
+      { "id": "keen", "name": "Keen", "stat": "critChance", "range": [3, 6], "tier": "T5", "ilvlReq": 1, "weight": 90 },
+      { "id": "precise", "name": "Precise", "stat": "critChance", "range": [6, 10], "tier": "T4", "ilvlReq": 20, "weight": 70 },
+      { "id": "lethal", "name": "Lethal", "stat": "critChance", "range": [10, 15], "tier": "T3", "ilvlReq": 40, "weight": 50 },
+      { "id": "assassin", "name": "Assassin's", "stat": "critChance", "range": [15, 22], "tier": "T2", "ilvlReq": 60, "weight": 30 },
+      { "id": "deathbringer", "name": "Deathbringer's", "stat": "critChance", "range": [22, 30], "tier": "T1", "ilvlReq": 80, "weight": 10 }
+    ],
+    "critDamage": [
+      { "id": "punishing", "name": "Punishing", "stat": "critDamage", "range": [10, 20], "tier": "T5", "ilvlReq": 1, "weight": 80 },
+      { "id": "crushing", "name": "Crushing", "stat": "critDamage", "range": [20, 35], "tier": "T4", "ilvlReq": 20, "weight": 60 },
+      { "id": "devastating", "name": "Devastating", "stat": "critDamage", "range": [35, 55], "tier": "T3", "ilvlReq": 40, "weight": 40 },
+      { "id": "obliterating", "name": "Obliterating", "stat": "critDamage", "range": [55, 80], "tier": "T2", "ilvlReq": 60, "weight": 25 },
+      { "id": "apocalyptic", "name": "Apocalyptic", "stat": "critDamage", "range": [80, 120], "tier": "T1", "ilvlReq": 80, "weight": 10 }
+    ],
+    "special": [
+      { "id": "vampiric", "name": "Vampiric", "stat": "lifesteal", "range": [2, 5], "tier": "T3", "ilvlReq": 35, "weight": 40 },
+      { "id": "sanguine", "name": "Sanguine", "stat": "lifesteal", "range": [5, 10], "tier": "T1", "ilvlReq": 65, "weight": 15 },
+      { "id": "ethereal", "name": "Ethereal", "stat": "piercing", "range": [1, 2], "tier": "T3", "ilvlReq": 40, "weight": 35 },
+      { "id": "phasing", "name": "Phasing", "stat": "piercing", "range": [2, 4], "tier": "T1", "ilvlReq": 70, "weight": 10 },
+      { "id": "quantum", "name": "Quantum", "stat": "projectiles", "range": [1, 1], "tier": "T2", "ilvlReq": 55, "weight": 20 },
+      { "id": "multiverse", "name": "Multiverse", "stat": "projectiles", "range": [2, 2], "tier": "T0", "ilvlReq": 85, "weight": 3 },
+      { "id": "berserker", "name": "Berserker's", "stat": "berserkDamage", "range": [25, 40], "tier": "T3", "ilvlReq": 45, "weight": 30 },
+      { "id": "raging", "name": "Raging", "stat": "berserkDamage", "range": [40, 70], "tier": "T1", "ilvlReq": 75, "weight": 12 }
+    ],
+    "defense": [
+      { "id": "reinforced", "name": "Reinforced", "stat": "shieldCap", "range": [10, 20], "tier": "T5", "ilvlReq": 1, "weight": 100 },
+      { "id": "fortified", "name": "Fortified", "stat": "shieldCap", "range": [20, 35], "tier": "T4", "ilvlReq": 15, "weight": 75 },
+      { "id": "bulwark", "name": "Bulwark", "stat": "shieldCap", "range": [35, 55], "tier": "T3", "ilvlReq": 35, "weight": 50 },
+      { "id": "aegis", "name": "Aegis", "stat": "shieldCap", "range": [55, 80], "tier": "T2", "ilvlReq": 55, "weight": 30 },
+      { "id": "impenetrable", "name": "Impenetrable", "stat": "shieldCap", "range": [80, 120], "tier": "T1", "ilvlReq": 75, "weight": 15 },
+      { "id": "hardened", "name": "Hardened", "stat": "maxHP", "range": [10, 20], "tier": "T5", "ilvlReq": 1, "weight": 100 },
+      { "id": "stalwart", "name": "Stalwart", "stat": "maxHP", "range": [20, 35], "tier": "T4", "ilvlReq": 20, "weight": 70 },
+      { "id": "indomitable", "name": "Indomitable", "stat": "maxHP", "range": [35, 55], "tier": "T3", "ilvlReq": 40, "weight": 45 },
+      { "id": "unyielding", "name": "Unyielding", "stat": "maxHP", "range": [55, 80], "tier": "T2", "ilvlReq": 60, "weight": 25 },
+      { "id": "immortal", "name": "Immortal's", "stat": "maxHP", "range": [80, 120], "tier": "T1", "ilvlReq": 80, "weight": 10 }
+    ],
+    "elemental": [
+      { "id": "burning", "name": "Burning", "stat": "fireDamage", "range": [5, 12], "tier": "T4", "ilvlReq": 10, "weight": 60 },
+      { "id": "blazing", "name": "Blazing", "stat": "fireDamage", "range": [12, 25], "tier": "T2", "ilvlReq": 45, "weight": 30 },
+      { "id": "infernal", "name": "Infernal", "stat": "fireDamage", "range": [25, 45], "tier": "T0", "ilvlReq": 80, "weight": 8 },
+      { "id": "chilling", "name": "Chilling", "stat": "coldDamage", "range": [5, 12], "tier": "T4", "ilvlReq": 10, "weight": 60 },
+      { "id": "freezing", "name": "Freezing", "stat": "coldDamage", "range": [12, 25], "tier": "T2", "ilvlReq": 45, "weight": 30 },
+      { "id": "glacial", "name": "Glacial", "stat": "coldDamage", "range": [25, 45], "tier": "T0", "ilvlReq": 80, "weight": 8 },
+      { "id": "shocking", "name": "Shocking", "stat": "lightningDamage", "range": [5, 12], "tier": "T4", "ilvlReq": 10, "weight": 60 },
+      { "id": "arcing", "name": "Arcing", "stat": "lightningDamage", "range": [12, 25], "tier": "T2", "ilvlReq": 45, "weight": 30 },
+      { "id": "thunderous", "name": "Thunderous", "stat": "lightningDamage", "range": [25, 45], "tier": "T0", "ilvlReq": 80, "weight": 8 }
+    ]
+  },
+  
+  "suffixes": {
+    "defense": [
+      { "id": "of_protection", "name": "of Protection", "stat": "shieldCap", "range": [10, 20], "tier": "T5", "ilvlReq": 1, "weight": 100 },
+      { "id": "of_the_fortress", "name": "of the Fortress", "stat": "shieldCap", "range": [20, 40], "tier": "T3", "ilvlReq": 30, "weight": 50 },
+      { "id": "of_invincibility", "name": "of Invincibility", "stat": "shieldCap", "range": [40, 70], "tier": "T1", "ilvlReq": 65, "weight": 15 },
+      { "id": "of_the_bastion", "name": "of the Bastion", "stat": "shieldCap", "range": [70, 100], "tier": "T0", "ilvlReq": 90, "weight": 5 }
+    ],
+    "speed": [
+      { "id": "of_swiftness", "name": "of Swiftness", "stat": "speed", "range": [5, 12], "tier": "T5", "ilvlReq": 1, "weight": 90 },
+      { "id": "of_the_wind", "name": "of the Wind", "stat": "speed", "range": [12, 22], "tier": "T3", "ilvlReq": 25, "weight": 55 },
+      { "id": "of_lightning", "name": "of Lightning", "stat": "speed", "range": [22, 35], "tier": "T2", "ilvlReq": 50, "weight": 30 },
+      { "id": "of_light", "name": "of Light", "stat": "speed", "range": [35, 50], "tier": "T0", "ilvlReq": 80, "weight": 8 }
+    ],
+    "luck": [
+      { "id": "of_fortune", "name": "of Fortune", "stat": "luck", "range": [5, 12], "tier": "T4", "ilvlReq": 10, "weight": 70 },
+      { "id": "of_prosperity", "name": "of Prosperity", "stat": "scrapBonus", "range": [10, 25], "tier": "T3", "ilvlReq": 30, "weight": 50 },
+      { "id": "of_the_collector", "name": "of the Collector", "stat": "dropBonus", "range": [5, 12], "tier": "T2", "ilvlReq": 50, "weight": 30 },
+      { "id": "of_wealth", "name": "of Wealth", "stat": "dropBonus", "range": [12, 20], "tier": "T1", "ilvlReq": 70, "weight": 12 },
+      { "id": "of_the_hoarder", "name": "of the Hoarder", "stat": "dropBonus", "range": [20, 35], "tier": "T0", "ilvlReq": 90, "weight": 3 }
+    ],
+    "vitality": [
+      { "id": "of_vitality", "name": "of Vitality", "stat": "maxHP", "range": [10, 20], "tier": "T5", "ilvlReq": 1, "weight": 100 },
+      { "id": "of_the_titan", "name": "of the Titan", "stat": "maxHP", "range": [20, 40], "tier": "T3", "ilvlReq": 30, "weight": 50 },
+      { "id": "of_immortality", "name": "of Immortality", "stat": "maxHP", "range": [40, 70], "tier": "T1", "ilvlReq": 65, "weight": 15 },
+      { "id": "of_the_colossus", "name": "of the Colossus", "stat": "maxHP", "range": [70, 120], "tier": "T0", "ilvlReq": 90, "weight": 5 }
+    ],
+    "regen": [
+      { "id": "of_regeneration", "name": "of Regeneration", "stat": "hpRegen", "range": [1, 3], "tier": "T4", "ilvlReq": 15, "weight": 70 },
+      { "id": "of_restoration", "name": "of Restoration", "stat": "hpRegen", "range": [3, 6], "tier": "T2", "ilvlReq": 45, "weight": 35 },
+      { "id": "of_rebirth", "name": "of Rebirth", "stat": "hpRegen", "range": [6, 10], "tier": "T0", "ilvlReq": 80, "weight": 10 },
+      { "id": "of_mending", "name": "of Mending", "stat": "shieldRegen", "range": [2, 5], "tier": "T4", "ilvlReq": 15, "weight": 65 },
+      { "id": "of_renewal", "name": "of Renewal", "stat": "shieldRegen", "range": [5, 10], "tier": "T2", "ilvlReq": 45, "weight": 30 },
+      { "id": "of_permanence", "name": "of Permanence", "stat": "shieldRegen", "range": [10, 18], "tier": "T0", "ilvlReq": 80, "weight": 8 }
+    ],
+    "special": [
+      { "id": "of_the_phoenix", "name": "of the Phoenix", "stat": "reviveChance", "range": [10, 20], "tier": "T1", "ilvlReq": 70, "weight": 8 },
+      { "id": "of_the_undying", "name": "of the Undying", "stat": "reviveChance", "range": [20, 35], "tier": "T0", "ilvlReq": 90, "weight": 2 },
+      { "id": "of_devastation", "name": "of Devastation", "stat": "critDamage", "range": [25, 45], "tier": "T2", "ilvlReq": 50, "weight": 25 },
+      { "id": "of_annihilation", "name": "of Annihilation", "stat": "critDamage", "range": [45, 80], "tier": "T0", "ilvlReq": 85, "weight": 6 },
+      { "id": "of_infinity", "name": "of Infinity", "stat": "energyRegen", "range": [15, 30], "tier": "T2", "ilvlReq": 45, "weight": 35 },
+      { "id": "of_eternity", "name": "of Eternity", "stat": "energyRegen", "range": [30, 50], "tier": "T0", "ilvlReq": 80, "weight": 10 },
+      { "id": "of_the_void", "name": "of the Void", "stat": "voidDamage", "range": [10, 25], "tier": "T1", "ilvlReq": 75, "weight": 10 },
+      { "id": "of_oblivion", "name": "of Oblivion", "stat": "voidDamage", "range": [25, 50], "tier": "T0", "ilvlReq": 95, "weight": 2 }
+    ]
+  },
+  
+  "tierInfo": {
+    "T5": { "name": "Common", "color": "#9090a0", "ilvlReq": 1 },
+    "T4": { "name": "Uncommon", "color": "#00dd44", "ilvlReq": 15 },
+    "T3": { "name": "Rare", "color": "#2090ff", "ilvlReq": 30 },
+    "T2": { "name": "Epic", "color": "#aa44ff", "ilvlReq": 50 },
+    "T1": { "name": "Legendary", "color": "#ff8800", "ilvlReq": 70 },
+    "T0": { "name": "Mythic", "color": "#ff2255", "ilvlReq": 90 }
+  }
+}
